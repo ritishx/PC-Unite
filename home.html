@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PCUnite</title>
+  <!-- HomePage css  -->
+  <link rel="stylesheet" href="home.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=visibility" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=shopping_cart" />
+  <!-- Banner css -->
+  <link rel="stylesheet" href="banner.css" />
+  <script defer src="banner.js"></script>
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <header>
+    <nav class="nav-container">
+      <a href="home.html" class="logo">PC<span>Unite</span></a>
+      <div class="nav-links">
+        <a href="home.html">Home</a>
+        <a href="accessories.html">Accessories</a>
+        <div class="categories-wrapper">
+          <input type="checkbox" id="categories-toggle" class="categories-checkbox">
+          <label for="categories-toggle" class="categories-label">Categories▼</label>
+          <ul class="dropdown">
+            <li><a href="gaming.html" class="dropdownli">Gaming PC</a></li>
+            <li><a href="editing.html" class="dropdownli">Editing</a></li>
+            <li><a href="students.html" class="dropdownli">Students PC</a></li>
+            <li><a href="officeuse.html" class="dropdownli">Office Use</a></li>
+            <li><a href="genral.html" class="dropdownli">General Use</a></li>
+          </ul>
+        </div>
+        <a href="#contact">Contact</a>
+        <a href="#" class="contact-btn">Cart</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h2>Asus</h2>
+        <h1>ROG ZEPHYRUS</h1>
+        <p>AMD Ryzen 9, NVIDIA GeForce RTX 3070 Ti</p>
+        <a href="zephyrus.html" class="social-btn"><span class="material-symbols-outlined"> </span> Shop
+          Now</a>
+      </div>
+      <div class="hero-image">
+        <img src="images/zephyrus1.png" alt="zephyrus" class="zephyrus-image" />
+        <div class="gradient-overlay"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Products -->
+  <div class="container">
+    <h1>Featured Products</h1>
+    <div class="products-grid">
+      <div class="product-card">
+        <h2 class="product-title">Alienware m18</h2>
+        <div class="product-price">₹ 189,000</div>
+        <img src="images/Alienware m18.png" alt="Alienware m18" class="product-image" />
+        <div class="button-group">
+          <a href="#" class="btn btn-primary">Buy Now</a>
+          <a href="#" class="btn btn-secondary">See More</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <h2 class="product-title">ASUS TUF A15</h2>
+        <div class="product-price">₹ 55,000</div>
+        <img src="images/tuf a15.png" alt="ASUS TUF A15" class="product-image" />
+        <div class="button-group">
+          <a href="#" class="btn btn-primary">Buy Now</a>
+          <a href="#" class="btn btn-secondary">See More</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <h2 class="product-title">Acer Aspire 3</h2>
+        <div class="product-price">₹ 23,500</div>
+        <img src="images/acer aspire 3.png" alt="Acer Aspire3" class="product-image" />
+        <div class="button-group">
+          <a href="#" class="btn btn-primary">Buy Now</a>
+          <a href="#" class="btn btn-secondary">See More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bestseller Products -->
+  <div class="container">
+    <h1>Bestseller Products</h1>
+    <div class="bestseller-grid">
+      <div class="bestseller-card">
+        <h2 class="bestseller-title">Lenovo IdeaPad Slim 3</h2>
+        <div class="bestseller-price">₹ 59,990</div>
+        <img src="images/Alienware m18.png" alt="Alienware m18" class="bestseller-image" />
+        <div class="button-group">
+          <a href="#" class="btn btn-primary">Buy Now</a>
+          <a href="#" class="btn btn-secondary">See More</a>
+        </div>
+      </div>
+
+      <div class="bestseller-card">
+        <h2 class="bestseller-title">Apple MacBook Air M2</h2>
+        <div class="bestseller-price">₹ 3,49,000</div>
+        <img src="images/macbook m2.png" alt="ASUS TUF A15" class="bestseller-image" />
+        <div class="button-group">
+          <a href="#" class="btn btn-primary">Buy Now</a>
+          <a href="#" class="btn btn-secondary">See More</a>
+        </div>
+      </div>
+
+      <div class="bestseller-card">
+        <h2 class="bestseller-title">Acer Aspire Lite</h2>
+        <div class="bestseller-price">₹ 32,990</div>
+        <img src="images/acer aspire lite.png" alt="Acer Aspire3" class="bestseller-image" style="width: 225px" />
+        <div class="button-group">
+          <a href="#" class="btn btn-primary">Buy Now</a>
+          <a href="#" class="btn btn-secondary">See More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Popular Brands -->
+  <div class="container">
+    <h1>Popular Brands</h1>
+    <div class="popular-grid">
+      <div class="popular-card">
+        <h2 class="popular-title">HP</h2>
+        <div class="popular-price">
+          <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed"
+            style="color: #8a2be2">
+            <path
+              d="M480-312q70 0 119-49t49-119q0-70-49-119t-119-49q-70 0-119 49t-49 119q0 70 49 119t119 49Zm0-72q-40 0-68-28t-28-68q0-40 28-68t68-28q40 0 68 28t28 68q0 40-28 68t-68 28Zm0 192q-142.6 0-259.8-78.5Q103-349 48-480q55-131 172.2-209.5Q337.4-768 480-768q142.6 0 259.8 78.5Q857-611 912-480q-55 131-172.2 209.5Q622.6-192 480-192Zm0-288Zm0 216q112 0 207-58t146-158q-51-100-146-158t-207-58q-112 0-207 58T127-480q51 100 146 158t207 58Z" />
+          </svg>11M Monthly visits
+        </div>
+        <img src="images/hp logo.png" alt="hp logo" class="popular-image" />
+        <div class="button-group">
+          <!-- <a href="#" class="btn btn-primary">Buy Now</a> -->
+          <a href="#" class="btn btn-secondary">See More</a>
+        </div>
+      </div>
+
+      <div class="popular-card">
+        <h2 class="popular-title">Apple</h2>
+        <div class="popular-price">
+          <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed"
+            style="color: #8a2be2">
+            <path
+              d="M480-312q70 0 119-49t49-119q0-70-49-119t-119-49q-70 0-119 49t-49 119q0 70 49 119t119 49Zm0-72q-40 0-68-28t-28-68q0-40 28-68t68-28q40 0 68 28t28 68q0 40-28 68t-68 28Zm0 192q-142.6 0-259.8-78.5Q103-349 48-480q55-131 172.2-209.5Q337.4-768 480-768q142.6 0 259.8 78.5Q857-611 912-480q-55 131-172.2 209.5Q622.6-192 480-192Zm0-288Zm0 216q112 0 207-58t146-158q-51-100-146-158t-207-58q-112 0-207 58T127-480q51 100 146 158t207 58Z" />
+          </svg>9M Monthly visits
+        </div>
+        <img src="images/apple logo.png" alt="apple logo" class="popular-image" height="300px" width="170px" />
+        <div class="button-group">
+          <!-- <a href="#" class="btn btn-primary">Buy Now</a> -->
+          <a href="#" class="btn btn-secondary">See More</a>
+        </div>
+      </div>
+
+      <div class="popular-card">
+        <h2 class="popular-title">ASUS</h2>
+        <div class="popular-price">
+          <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed"
+            style="color: #8a2be2">
+            <path
+              d="M480-312q70 0 119-49t49-119q0-70-49-119t-119-49q-70 0-119 49t-49 119q0 70 49 119t119 49Zm0-72q-40 0-68-28t-28-68q0-40 28-68t68-28q40 0 68 28t28 68q0 40-28 68t-68 28Zm0 192q-142.6 0-259.8-78.5Q103-349 48-480q55-131 172.2-209.5Q337.4-768 480-768q142.6 0 259.8 78.5Q857-611 912-480q-55 131-172.2 209.5Q622.6-192 480-192Zm0-288Zm0 216q112 0 207-58t146-158q-51-100-146-158t-207-58q-112 0-207 58T127-480q51 100 146 158t207 58Z" />
+          </svg>8M Monthly visits
+        </div>
+        <img src="images/asus logo.png" alt="Acer Aspire3" class="popular-image" style="width: 320px" />
+        <div class="button-group">
+          <!-- <a href="#" class="btn btn-primary">Buy Now</a> -->
+          <a href="#" class="btn btn-secondary">See More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- accessories banner -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Computer Accessories</h1>
+          <p>Get 50% off on Computer Accessories</p>
+          <a href="https://amazon.in" target="_blank" class="btn btn-primary">Shop Now</a>
+        </div>
+        <div class="hero-image">
+          <a href="https://amazon.in" target="_blank"><img src="images/computer-accessories.jpg" alt="" /></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3 class="footer-logo">PC<span>Unite</span></h3>
+        <p>Your one-stop shop for all your PC needs.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="accessories.html">Accessories</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#" class="cart-link">Cart</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Categories</h3>
+        <ul>
+          <li><a href="gaming.html">Gaming PC</a></li>
+          <li><a href="editing.html">Editing</a></li>
+          <li><a href="students.html">Students PC</a></li>
+          <li><a href="officeuse.html">Office Use</a></li>
+          <li><a href="genral.html">General Use</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Connect With Us</h3>
+        <div class="contact-icons">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 PCUnite. All rights reserved.</p>
+    </div>
+  </footer>
+
+  
+  <!-- discount banner -->
+  <div id="discount-banner" class="discount-banner">
+    <div class="discount-content">
+      <span class="discount-emoji">🎉</span>
+      <p class="discount-text">
+        Up to <strong>15% off</strong> on your first order! &
+        <strong>20% off</strong> with student ID
+      </p>
+    </div>
+    <button id="close-banner" class="close-button" aria-label="Close discount banner">
+      ×
+    </button>
+  </div>
+</body>
+
+</html>

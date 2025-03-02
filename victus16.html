@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HP Victus 16 || PCUnite</title>
+    <!-- Common css -->
+    <link rel="stylesheet" href="home.css">
+    <!-- page common css -->
+    <link rel="stylesheet" href="zephyrus.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- banner css and js -->
+    <link rel="stylesheet" href="banner.css">
+    <script src="banner.js"></script>
+</head>
+<body>
+    <!-- Nav bar -->
+    <header>
+        <nav class="nav-container">
+          <a href="home.html" class="logo">PC<span>Unite</span></a>
+          <div class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="accessories.html">Accessories</a>
+            <div class="categories-wrapper">
+              <input type="checkbox" id="categories-toggle" class="categories-checkbox">
+              <label for="categories-toggle" class="categories-label">Categories▼</label>
+              <ul class="dropdown">
+                <li><a href="gaming.html" class="dropdownli">Gaming PC</a></li>
+                <li><a href="students.html" class="dropdownli">Students PC</a></li>
+                <li><a href="officeuse.html" class="dropdownli">Office Use</a></li>
+                <li><a href="genral.html" class="dropdownli">General Use</a></li>
+                <li><a href="editing.html" class="dropdownli">Editing</a></li>
+              </ul>
+            </div>
+            <a href="#contact">Contact</a>
+            <a href="#" class="contact-btn">Cart</a>
+          </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="page-wrapper">
+            <div class="product-layout">
+                <div class="image-showcase">
+                    <div class="hero-image">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <img src="images/HP Victus 16/HP Victus 16 1.png" alt="HP Victus 16 Front View" class="gallery-item active">
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="images/HP Victus 16/2.jpg">
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="images/HP Victus 16/3.jpg" alt="HP Victus 16 Keyboard View">
+                              </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                            <div class="image_container">
+                                <span><i class="ri-close-large-line"></i></span>
+                                <img src="/placeholder.svg?height=500&width=500" alt="HP Victus 16 Full View">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <div class="product-category">
+                        Laptop / HP Gaming
+                    </div>
+                    <h1 class="product-name">HP Victus 16 Gaming Laptop</h1>
+                    <div class="price-tag">₹ 79,990</div>
+                    
+                    <div class="customization-options">
+                        <select class="option-dropdown">
+                            <option value="" disabled selected>Select Processor</option>
+                            <option value="intel-i7">Intel Core i7-11800H</option>
+                            <option value="intel-i5">Intel Core i5-11400H</option>
+                        </select>
+                        
+                        <select class="option-dropdown">
+                            <option value="" disabled selected>Select GPU</option>
+                            <option value="rtx3060">NVIDIA GeForce RTX 3060</option>
+                            <option value="rtx3050">NVIDIA GeForce RTX 3050</option>
+                        </select>
+                        
+                        <select class="option-dropdown">
+                            <option value="" disabled selected>Select RAM</option>
+                            <option value="16gb">16GB DDR4</option>
+                            <option value="8gb">8GB DDR4</option>
+                        </select>
+                        
+                        <select class="option-dropdown">
+                            <option value="" disabled selected>Hard Disk Size</option>
+                            <option value="1tb">1TB SSD</option>
+                            <option value="512gb">512GB SSD</option>
+                        </select>
+                        
+                        <div class="purchase-controls">
+                            <input type="number" value="1" min="1" class="quantity-selector">
+                            <button class="purchase-button">Add to Cart</button>
+                        </div>
+                    </div>
+                    
+                    <div class="shipping-info">
+                        <span class="status-indicator"></span>
+                        <span>Estimated delivery: 3-5 business days</span>
+                    </div>
+                    
+                    <div class="product-description">
+                        <h2>Product Details</h2>
+                        <p>The HP Victus 16 is a powerful gaming laptop that delivers exceptional performance for both gaming and productivity. With its high-performance processors and dedicated graphics, it offers an immersive gaming experience in a sleek and portable design.</p>
+                        <ul class="feature-list">
+                            <li>Latest Intel Core i7-11800H or i5-11400H Processor</li>
+                            <li>NVIDIA GeForce RTX 3060 or RTX 3050 Graphics</li>
+                            <li>16.1" Full HD IPS display with up to 144Hz refresh rate</li>
+                            <li>HP OMEN Gaming Hub for performance optimization</li>
+                            <li>Enhanced thermal solution for sustained performance</li>
+                            <li>Full-size backlit keyboard with numeric keypad</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="discount-banner" class="discount-banner">
+        <div class="discount-content">
+            <span class="discount-emoji">🎉</span>
+            <p class="discount-text">Up to <strong>15% off</strong> on your first order! & <strong>20% off</strong> with student ID</p>
+        </div>
+        <button id="close-banner" class="close-button" aria-label="Close discount banner">×</button>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3 class="footer-logo">PC<span>Unite</span></h3>
+            <p>Your one-stop shop for all your PC needs.</p>
+          </div>
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="accessories.html">Accessories</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#" class="cart-link">Cart</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Categories</h3>
+            <ul>
+              <li><a href="gaming.html">Gaming PC</a></li>
+              <li><a href="editing.html">Editing</a></li>
+              <li><a href="students.html">Students PC</a></li>
+              <li><a href="officeuse.html">Office Use</a></li>
+              <li><a href="genral.html">General Use</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Connect With Us</h3>
+            <div class="contact-icons">
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 PCUnite. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="banner.js"></script>
+</body>
+</html>

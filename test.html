@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header {
+            background-color: #000;
+            padding: 20px 0;
+            border-bottom: 1px solid #333;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        .contact-btn {
+            background-color: transparent;
+            color: #fff;
+            border: 1px solid #fff;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        h1 {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .product {
+            width: calc(25% - 20px);
+            background-color: #111;
+            margin-bottom: 40px;
+            border: 1px solid #333;
+            transition: transform 0.3s ease;
+        }
+        .product:hover {
+            transform: translateY(-10px);
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+        .product:hover img {
+            transform: scale(1.05);
+        }
+        .product-info {
+            padding: 20px;
+        }
+        .product-name {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .product-price {
+            color: #ff6b6b;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #ff6b6b;
+            margin-right: 10px;
+        }
+        .btn.outline {
+            background-color: transparent;
+            border: 1px solid #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">BM Store</div>
+                <div class="nav-links">
+                    <a href="#">HOME</a>
+                    <a href="#">PRODUCT</a>
+                    <a href="#">ABOUT US</a>
+                    <a href="#">CONTACT</a>
+                </div>
+                <button class="contact-btn">Contact Us</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>Samsung</h1>
+        <div class="products">
+            <div class="product">
+                <img src="https://via.placeholder.com/300x400" alt="Samsung S22 Ultra 5G">
+                <div class="product-info">
+                    <h2 class="product-name">Samsung S22 Ultra 5G</h2>
+                    <p class="product-price">Price $1,500</p>
+                    <a href="#" class="btn">Buy Now</a>
+                    <a href="#" class="btn outline">See More</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x400" alt="Samsung Galaxy A53 5G">
+                <div class="product-info">
+                    <h2 class="product-name">Samsung Galaxy A53 5G</h2>
+                    <p class="product-price">Price $1,400</p>
+                    <a href="#" class="btn">Buy Now</a>
+                    <a href="#" class="btn outline">See More</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x400" alt="Samsung Galaxy Z Fold 4 5G">
+                <div class="product-info">
+                    <h2 class="product-name">Samsung Galaxy Z Fold 4 5G</h2>
+                    <p class="product-price">Price $1,100</p>
+                    <a href="#" class="btn">Buy Now</a>
+                    <a href="#" class="btn outline">See More</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x400" alt="Samsung Galaxy S23 Ultra">
+                <div class="product-info">
+                    <h2 class="product-name">Samsung Galaxy S23 Ultra</h2>
+                    <p class="product-price">Price $1,600</p>
+                    <a href="#" class="btn">Buy Now</a>
+                    <a href="#" class="btn outline">See More</a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
